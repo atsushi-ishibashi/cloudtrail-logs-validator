@@ -1,0 +1,47 @@
+hash: f4d5050092b39019353d9102f2781ee8cf72d1623bf545ba348042a485329168
+updated: 2018-09-20T11:28:38.884424+09:00
+imports:
+- name: github.com/aws/aws-sdk-go
+  version: 949f7800d745d1df9af349380e5deec8de206144
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/awsutil
+  - aws/client
+  - aws/client/metadata
+  - aws/corehandlers
+  - aws/credentials
+  - aws/credentials/ec2rolecreds
+  - aws/credentials/endpointcreds
+  - aws/credentials/stscreds
+  - aws/csm
+  - aws/defaults
+  - aws/ec2metadata
+  - aws/endpoints
+  - aws/request
+  - aws/session
+  - aws/signer/v4
+  - internal/sdkio
+  - internal/sdkrand
+  - internal/sdkuri
+  - internal/shareddefaults
+  - private/protocol
+  - private/protocol/eventstream
+  - private/protocol/eventstream/eventstreamapi
+  - private/protocol/json/jsonutil
+  - private/protocol/jsonrpc
+  - private/protocol/query
+  - private/protocol/query/queryutil
+  - private/protocol/rest
+  - private/protocol/restxml
+  - private/protocol/xml/xmlutil
+  - service/cloudtrail
+  - service/cloudtrail/cloudtrailiface
+  - service/s3
+  - service/s3/s3iface
+  - service/sts
+- name: github.com/go-ini/ini
+  version: fa25069db393aecc09b71267d0489b357781c860
+- name: github.com/jmespath/go-jmespath
+  version: c2b33e8439af944379acbdd9c3a5fe0bc44bd8a5
+testImports: []
